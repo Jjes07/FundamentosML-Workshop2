@@ -1,0 +1,41 @@
+# Entornos virtuales de Python
+venv/
+.env/
+.venv/
+env/
+
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de IDEs/editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de respaldo temporales
+*.backup
+*.bak
+
+# Logs
+*.log
+
+# Dataset (descomentar si no se quiere versionar el CSV)
+# data/
+
+# Nota: los archivos .joblib NO se ignoran porque se rastrean con Git LFS
+# (ver .gitattributes). Si en algún momento se deja de usar LFS, agregar:
+# *.joblib
